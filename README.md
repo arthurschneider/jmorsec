@@ -1,7 +1,8 @@
 # jmorsec
 
-This is a simple jbang script to encode or decode an input to ist associated morse code input/output.
+This is a simple jbang script to encode or decode an input to its associated morse code input/output.
 
+---
 
 ### Usage
 
@@ -23,7 +24,7 @@ The input 'SOS' encoded is : '*** --- ***'%
 Command to decode a morse string:
 
 ```java
-j! jmorse.java -d '*** --- ***'
+j! jmorsec.java -d '*** --- ***'
 ```
 
 Output:
@@ -32,11 +33,13 @@ Output:
 The input '*** --- ***' decoded is : 'SOS'%
 ```
 
+---
 
 ### Help
 
 If some help is needed try following command:
 
 ```java
-j! jmorse.java -h
+j! jmorsec.java -h
 ```
+
